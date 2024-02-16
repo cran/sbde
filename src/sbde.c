@@ -18,8 +18,6 @@ double logsum(double *lx, int n);
 double logmean(double *lx, int n);
 double sum(double *x, int n);
 int rdraw(int n, double *lprob, int inlog);
-void locator_string(int *ix, int n, char *a);
-void locator_string_inverse(char *a, int *ix);
 void mmprod(double **a, double **b, double **c, int m, int k, int n, int atrans, int btrans, int ctrans);
 void mvprod(double **a, double *b, double *c, int m, int k, int atrans);
 void set_lower_tri_zero(double **A, int n, int m);
@@ -787,28 +785,6 @@ int rdraw(int n, double *prob, int inlog){
 	return j;
 }
 
-
-void locator_string(int *ix, int n, char *a){
-	const char *fmt[2];	fmt[0] = "%d";	fmt[1] = ".%d";	
-	int i, skip = 0;
-	for(i = 0; i < n; i++){
-		if(ix[i]){
-			sprintf(a + skip, fmt[skip > 0], i + 1);
-			skip = strlen(a);
-		}
-	}
-}
-
-
-void locator_string_inverse(char *a, int *ix){
-	const char s[2] = ".";
-	char *token;
-	token = strtok(a, s);
-	while( token != NULL ) {
-		ix[atoi(token) - 1] = 1;
-		token = strtok(a, s);
-	}
-}
 
 
 void mmprod(double **a, double **b, double **c, int m, int k, int n, int atrans, int btrans, int ctrans){

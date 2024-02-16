@@ -1,5 +1,4 @@
 \name{coef.sbde}
-\Rdversion{0.0-6}
 \alias{coef.sbde}
 \title{Coefficient Extraction from sbde Model Fit}
 \description{Post process MCMC output from \code{\link{sbde}} to create summaries of parameter and quantile estimates.}
@@ -8,7 +7,7 @@
     prob = c(.001,.01,.1,1:99,99.9,99.99,99.999)/100, ...)
 } 
 \arguments{
-\item{object}{a fitted model of the class \code{sbde}.}
+\item{object}{a fitted model of the class \link{sbde}.}
 \item{burn.perc}{a positive fraction indicating what fraction of the saved draws are to be discarded as burn-in}
 \item{nmc}{integer giving the number of samples, post burn-in, to be used in Monte Carlo averaging}
 \item{prob}{a numeric vector of probabiities at which quantiles are to be estimated.}

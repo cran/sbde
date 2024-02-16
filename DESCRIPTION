@@ -1,6 +1,6 @@
 Package: sbde
-Version: 1.0-0
-Date: 2022-09-29
+Version: 1.0-1
+Date: 2024-02-16
 Title: Semiparametric Bayesian Density Estimation
 Author: Surya Tokdar <surya.tokdar@duke.edu>
 Maintainer: Surya Tokdar <surya.tokdar@duke.edu>
@@ -15,6 +15,6 @@ Description: Offers Bayesian semiparametric density estimation
              Tokdar et al. (2022) <doi:10.1080/01621459.2022.2104727>.
 License: GPL-2
 NeedsCompilation: yes
-Packaged: 2022-10-01 19:46:32 UTC; stokdar
+Packaged: 2024-02-16 22:22:38 UTC; stokdar
 Repository: CRAN
-Date/Publication: 2022-10-03 07:30:02 UTC
+Date/Publication: 2024-02-16 23:40:02 UTC

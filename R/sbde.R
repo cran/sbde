@@ -360,7 +360,7 @@ sigFn <- function(z) return(exp(z/2))
 sigFn.inv <- function(s) return(2 * log(s))
 unitFn <- function(u) return(pmin(1 - 1e-10, pmax(1e-10, u)))
 
-sum.sq <- function(x) return(sum(x^2))
+sum_sq <- function(x) return(sum(x^2))
 extract <- function(lo, vn) return(lo[[vn]])
 logmean <- function(lx) return(max(lx) + log(mean(exp(lx - max(lx)))))
 logsum <- function(lx) return(logmean(lx) + log(length(lx)))

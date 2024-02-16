@@ -1,10 +1,10 @@
-1b6efd1168b683fe995dcf07639be31f *DESCRIPTION
+706124fba5a421357125f583ba04259f *DESCRIPTION
 ce6fe1d55157837a97a823c49139c3a8 *NAMESPACE
-27d6f750b721ebcd1cd8171d4f2fb930 *R/sbde.R
-9f61b84b5a8275ed29da599e9aae2ec9 *man/coef.sbde.Rd
+2df2a6de780a0a9dc3918884384a91db *R/sbde.R
+fda9939b5c0bee48d4cc45720ae5078c *man/coef.sbde.Rd
 531d77308a920d7a2de3ec38eb286829 *man/predict.sbde.Rd
 b0fb63b258c89e588cbdebc52bbb7961 *man/sbde-internal.Rd
 1d451c9b579aaad052f7e4dc6447450e *man/sbde.Rd
 c4f97f7a87fd365cce93e0f0159b2ca8 *man/summary.sbde.Rd
 8436449ee6cd073c1bb09b9673fd2ffd *src/registerDynamicSymbol.c
-512033c2eda7a3b920cd60f82711051c *src/sbde.c
+43d100a4f14e0d495763b485d8a20861 *src/sbde.c
