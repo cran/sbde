@@ -16,7 +16,7 @@
     \item{...}{a limited number of plotting controls that are passed onto the deviance plot}
 }
 \value{
-Displays the trace of the deviance statistic. More details include trace plots of of the proximity parameter of each GP, a plot of Geweke p-values for (from \code{\link{geweke.diag}}) convergence of each model parameter and an image plot of parameter correlation. 
+Displays the trace of the deviance statistic. More details include trace plots of of the proximity parameter of each GP, a plot of Geweke p-values for (from \code{\link[coda]{geweke.diag}}) convergence of each model parameter and an image plot of parameter correlation. 
 
 The following quantities are returned invisibly.
 \item{deviance}{vector deviance statistic of the samples parameter draws} 
